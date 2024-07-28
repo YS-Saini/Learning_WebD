@@ -21,7 +21,7 @@ h1 {
     border: none;
     border-radius: 5px;
     position: absolute;
-    top: 100px;
+    top: 500px;
     left: 50px;
 }
 
@@ -51,7 +51,7 @@ h1 {
 .content {
     margin-top: 300px; /* Adjust this value based on your layout */
     padding: 20px;
-    background-color: #fff;
+    background-color:#f0f0f0;
     text-align: left;
     max-width: 800px;
     margin: 300px auto 0 auto;
@@ -61,4 +61,16 @@ h1 {
 .content p {
     margin-bottom: 20px;
     line-height: 1.6;
+}
+
+
+#logo {
+    width: 15%; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center the image horizontally */
+    border-radius: 10px;
+    position: absolute; /* Allows for absolute positioning within the container */
+    top: 5px; /* Adjust the top position as needed */
+    left: 50px; /* Adjust the left position as needed */
 }
