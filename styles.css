@@ -1,12 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
-    background-color: #ffa75a;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 h1 {
     color: #333;
+    margin-top: 20px;
 }
 
 /* Styling for the first button */
@@ -18,7 +20,7 @@ h1 {
     color: white;
     border: none;
     border-radius: 5px;
-    position: absolute; /* Changed to absolute for precise positioning */
+    position: absolute;
     top: 100px;
     left: 50px;
 }
@@ -36,11 +38,27 @@ h1 {
     color: white;
     border: none;
     border-radius: 5px;
-    position: absolute; /* Changed to absolute for precise positioning */
+    position: absolute;
     top: 200px;
-    right: 500px; /* Changed to right for positioning relative to the right edge */
+    right: 50px;
 }
 
 #nextPageButton:hover {
     background-color: #007bb5;
+}
+
+/* Styling for the content to make the page scrollable */
+.content {
+    margin-top: 300px; /* Adjust this value based on your layout */
+    padding: 20px;
+    background-color: #fff;
+    text-align: left;
+    max-width: 800px;
+    margin: 300px auto 0 auto;
+    padding: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
